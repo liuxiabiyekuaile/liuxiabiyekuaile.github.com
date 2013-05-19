@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" media="screen" type="text/css" title="design" href="css/mem.css">
+
+<title>{{  page.title}} </title>
+<script src = "js/jquery-1.9.0.min.js" type = "text/javascript"></script>
+<script src="js/mem.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div id = "loading">
+		<span class = "load">太多人没有选择等待<br/>于是他们不断地错过。。。</span>
+	</div>
+    <div class = "pic"><img src = "../assets/image/pic1.JPG"><span class = "dec">1</span></div>
+    <div class = "pic"><img src = "../assets/image/pic2.JPG"><span class = "dec">1</span></div>
+    <div class = "pic"><img src = "../assets/image/pic3.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic3.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic4.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic5.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic6.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic7.JPG"><span class = "dec">1</span></div>
+<div class = "pic"><img src = "../assets/image/pic8.JPG"><span class = "dec">1</span></div>
+
+<div class = "pic"><img src = "../assets/image/pic3.JPG"><span class = "dec">1</span></div>
+    <div id = "nav">
+    <span class = "font"><a href = "../index.html">Ç</a></span>
+	<span class = "font"><a href = "../wish.html">9</a></span>
+	<span class = "font"><a href = "../memory.html">A</a></span>            
+    </div>
+
+</body>
+</html>
+

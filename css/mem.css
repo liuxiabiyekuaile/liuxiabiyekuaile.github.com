@@ -1,0 +1,87 @@
+body{
+    background-image:url("../assets/image/bg.jpg");
+	margin:0;
+	padding:0;
+}
+
+div.pic{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+    width:600px;
+    height:500px;
+    background-color:red;
+    border-style:solid;
+    border-width:15px;
+    border-color:#fff;
+    position:relative;
+}
+
+span.dec{
+    font-family:"sosa";
+    position:absolute;
+    font-size:50px;
+    left:615px;
+    top:0px;
+    color:#fff;
+}
+
+span.font{
+    font-family:"sosa";
+    font-size:50px;
+    color:#fff;
+}
+
+div#nav{
+    width:900px;
+	height:100px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+
+a{
+    color:#dd9999;
+    text-decoration:none;
+	margin-left:90px;
+	float:left;
+	display:left;
+	width:180px;
+	height:80px;
+}
+a:hover{
+    background-color:#ee5656;
+}
+
+@font-face{
+    font-family: 'sosa';
+    src:url('/assets/fonts/sosa.ttf'),url('/assets/fonts/sosa.eot'),url('/assets/fonts/sosa.woff');
+}
+
+#loading{
+	position:fixed;
+	height:100%;
+	width:100%;
+	background-color:#FF8686;
+	left:0;
+	top:0;
+	z-index:1234;
+	
+}
+
+span.load{
+	margin:auto;
+	margin-top:300px;
+	display:block;
+	width:400px;
+	height:400px;
+	font-size:20px;
+	color:#fff;
+}
+
+
+
+
+
+

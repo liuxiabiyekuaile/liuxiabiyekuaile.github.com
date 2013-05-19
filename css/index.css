@@ -1,0 +1,119 @@
+/* index.css */
+body{
+    background-image:url("../assets/image/bg.jpg");
+}
+
+#frame{
+    margin: auto;
+    position: static;
+    width: 900px;
+    height: 600px;
+    background-color:#fff;
+    background-image:url("../assets/image/bg.jpg");
+    margin-top:60px;
+}
+
+#main{
+    margin:auto;
+    position: relative;
+    width:100%;
+    height: 250px;
+    background-image:url("../assets/image/bg.jpg");
+    color:#fff;
+    font-family:"dog";
+}
+
+#nav{
+    margin:auto;
+    position:relative;
+    width:100%;
+    height:200px;
+    background-image:url("../assets/image/bg.jpg");
+    text-align:center;
+}
+
+#footer{
+    margin:auto;
+    position:relative;
+    width:100%;
+    height:100px;
+    background-image:url("../assets/image/bg.jpg");
+    border-radius:0px 0px 18px 18px;
+    text-align:center;
+    line-height:36px;
+    color:#fff;
+    font-size:15px;
+}
+#main div#con{
+    margin:auto;
+    position: relative;
+    width:100%;
+    height:250px;
+    background-image:url("../assets/image/bg.jpg");
+    /*line-height:250px;*/
+    text-align:center;
+}
+#main span.title{
+    font-size:10px;
+}
+
+/*
+  *这里要怎么自动对齐？
+*/
+
+#nav div.go{
+    background-image:url("../assets/image/bg.jpg");
+    width:180px;
+    height:80px;
+    float:left;
+    margin-left:90px;
+    margin-top:60px;
+    position:relative;
+    overflow:hidden;
+    
+}
+
+#nav ul.slide{
+    margin:0;
+    padding:0;
+    position:absolute;
+    width:180px;
+    height:160px;
+    border-radius:5px;
+    color:#fff;
+
+}
+
+#nav ul.slide li{
+    list-style:none;
+    width:180px;
+    height:80px;
+    border-radius:5px;
+    line-height:80px;
+    text-align:center;
+    font-size:25px;
+    
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+
+#nav ul.slide li.font{
+    font-family:"sosa";
+    font-size:50px;
+}
+
+@font-face {
+ font-family: 'dog';
+ src: url('/assets/fonts/GoodDog.otf');
+ unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+} 
+
+@font-face{
+    font-family: 'sosa';
+    src:url('/assets/fonts/sosa.ttf'),url('/assets/fonts/sosa.eot'),url('/assets/fonts/sosa.woff');
+}

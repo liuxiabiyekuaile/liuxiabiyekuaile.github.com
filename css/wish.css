@@ -1,0 +1,78 @@
+body{
+    background-image:url(../assets/image/bg.jpg);
+}
+
+#frame{
+    width:900px;
+    margin:auto;
+    background-image:url("../assets/image/scnu.jpg");
+}
+
+div.words{
+    width:100%;
+    background-color:#fff;
+    margin-top:50px;
+    position:relative;
+    font-size:16px;
+    padding:20px;    
+    border-radius:0px 0px 10px 0px;
+    color:#fff;
+    opacity:0.8;
+	filter:alpha(opacity=80);
+	font-family:"华文细黑";
+}
+
+div.words span.pic{
+    width:100px;
+    height:100px;
+    position:absolute;
+    left:-130px;
+    top:-10px;
+    border-style:solid;
+    border-color:#fff;
+    border-width:10px 10px 8px 8px;
+    background-color:#f23aaa;
+    border-radius:6px;
+    display:block;
+    overflow:hidden;
+    font-family:"华文细黑";
+}
+
+span.font{
+    font-family:"sosa";
+    font-size:50px;
+    color:#fff;
+	
+}
+
+div#nav{
+    width:900px;
+	height:100px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+
+a{
+    color:#dd9999;
+    text-decoration:none;
+	width:180px;
+	height:80px;
+	display:block;
+	float:left;
+	margin-left:90px;
+	
+}
+a:hover{
+    background-color:#ee5656;
+}
+
+@font-face{
+    font-family: 'sosa';
+    src:url('/assets/fonts/sosa.ttf'),url('/assets/fonts/sosa.eot'),url('/assets/fonts/sosa.woff');
+}
+
+
+
+
