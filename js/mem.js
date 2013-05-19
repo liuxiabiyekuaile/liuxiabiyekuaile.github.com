@@ -1,6 +1,6 @@
 function adjust(){
     var pics =  document.getElementsByTagName("div");
-    var cnt = 11;
+    var cnt = 10;
     for(var i = 1;i < cnt;i ++){
         var p = pics[i];
         var img = p.getElementsByTagName("img")[0];
